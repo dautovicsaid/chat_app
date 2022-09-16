@@ -1,0 +1,56 @@
+
+body {
+    background-color: #74ebd5;
+}
+
+.messenger {
+    height:80vh;
+}
+
+.input-group {
+    position: absolute;
+    padding-bottom: 10px;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-track {
+    width: 5px;
+    background: #f5f5f5;
+}
+
+::-webkit-scrollbar-thumb {
+    width: 1em;
+    background-color: #ddd;
+    outline: 1px solid slategrey;
+    border-radius: 1rem;
+}
+
+.text-small {
+    font-size: 0.9rem;
+}
+
+.messages-box, .chat-box {
+    height:100%;
+}
+
+.rounded-lg {
+    border-radius: 0.5rem;
+}
+
+#message_history {
+    height:92%;
+    overflow-y:scroll;
+}
+
+#message_input {
+    height:8%;
+}
+
+input::placeholder {
+    font-size: 0.9rem;
+    color: #999;
+}
+
