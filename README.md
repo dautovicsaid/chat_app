@@ -8,7 +8,8 @@ composer install
 npm install
 php artisan serve
 php artisan websockets:serve
-php artisan migrate
+npm run dev
+php artisan migrate --seed
 php artisan storage:link
 
 ```
