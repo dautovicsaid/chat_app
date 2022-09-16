@@ -1,6 +1,3 @@
-# Library
-
-Work on the library as part of practice
 
 ## Installation
 
